@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		101CA3A91C99655C000B218F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 101CA3A81C99655C000B218F /* main.m */; };
 		101CA3AC1C99655C000B218F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 101CA3AB1C99655C000B218F /* AppDelegate.m */; };
-		101CA3AF1C99655D000B218F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101CA3AE1C99655D000B218F /* ViewController.m */; };
-		101CA3B21C99655D000B218F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101CA3B01C99655D000B218F /* Main.storyboard */; };
 		101CA3B41C99655D000B218F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101CA3B31C99655D000B218F /* Assets.xcassets */; };
 		101CA3B71C99655D000B218F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101CA3B51C99655D000B218F /* LaunchScreen.storyboard */; };
+		10AC9ADE1C9A592E00D9F4C9 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AC9ADC1C9A592D00D9F4C9 /* LoginVC.m */; };
+		10AC9ADF1C9A592E00D9F4C9 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10AC9ADD1C9A592D00D9F4C9 /* LoginVC.xib */; };
+		10AC9AE31C9A5AE900D9F4C9 /* musicbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10AC9AE21C9A5AE900D9F4C9 /* musicbg.jpg */; };
+		10AC9AE51C9A5AF900D9F4C9 /* menu_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AC9AE41C9A5AF900D9F4C9 /* menu_btn.png */; };
+		10AC9AE71C9A5B9B00D9F4C9 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AC9AE61C9A5B9B00D9F4C9 /* facebook.png */; };
+		10AC9AE91C9A5CC200D9F4C9 /* googleplus.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AC9AE81C9A5CC200D9F4C9 /* googleplus.png */; };
+		10AC9AEB1C9A5CCA00D9F4C9 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AC9AEA1C9A5CCA00D9F4C9 /* twitter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,17 @@
 		101CA3A81C99655C000B218F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		101CA3AA1C99655C000B218F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		101CA3AB1C99655C000B218F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		101CA3AD1C99655C000B218F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		101CA3AE1C99655D000B218F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		101CA3B11C99655D000B218F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		101CA3B31C99655D000B218F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		101CA3B61C99655D000B218F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		101CA3B81C99655D000B218F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AC9ADB1C9A592D00D9F4C9 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginVC.h; path = ../LoginVC.h; sourceTree = "<group>"; };
+		10AC9ADC1C9A592D00D9F4C9 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginVC.m; path = ../LoginVC.m; sourceTree = "<group>"; };
+		10AC9ADD1C9A592D00D9F4C9 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginVC.xib; path = ../LoginVC.xib; sourceTree = "<group>"; };
+		10AC9AE21C9A5AE900D9F4C9 /* musicbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = musicbg.jpg; sourceTree = "<group>"; };
+		10AC9AE41C9A5AF900D9F4C9 /* menu_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_btn.png; sourceTree = "<group>"; };
+		10AC9AE61C9A5B9B00D9F4C9 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		10AC9AE81C9A5CC200D9F4C9 /* googleplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleplus.png; sourceTree = "<group>"; };
+		10AC9AEA1C9A5CCA00D9F4C9 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				101CA3A61C99655C000B218F /* project01 */,
+				10AC9AE01C9A5AB500D9F4C9 /* Resources */,
 				101CA3A51C99655C000B218F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,9 +71,9 @@
 			children = (
 				101CA3AA1C99655C000B218F /* AppDelegate.h */,
 				101CA3AB1C99655C000B218F /* AppDelegate.m */,
-				101CA3AD1C99655C000B218F /* ViewController.h */,
-				101CA3AE1C99655D000B218F /* ViewController.m */,
-				101CA3B01C99655D000B218F /* Main.storyboard */,
+				10AC9ADB1C9A592D00D9F4C9 /* LoginVC.h */,
+				10AC9ADC1C9A592D00D9F4C9 /* LoginVC.m */,
+				10AC9ADD1C9A592D00D9F4C9 /* LoginVC.xib */,
 				101CA3B31C99655D000B218F /* Assets.xcassets */,
 				101CA3B51C99655D000B218F /* LaunchScreen.storyboard */,
 				101CA3B81C99655D000B218F /* Info.plist */,
@@ -77,6 +88,26 @@
 				101CA3A81C99655C000B218F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10AC9AE01C9A5AB500D9F4C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10AC9AE11C9A5ACF00D9F4C9 /* Img Sources */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		10AC9AE11C9A5ACF00D9F4C9 /* Img Sources */ = {
+			isa = PBXGroup;
+			children = (
+				10AC9AE41C9A5AF900D9F4C9 /* menu_btn.png */,
+				10AC9AE21C9A5AE900D9F4C9 /* musicbg.jpg */,
+				10AC9AE61C9A5B9B00D9F4C9 /* facebook.png */,
+				10AC9AE81C9A5CC200D9F4C9 /* googleplus.png */,
+				10AC9AEA1C9A5CCA00D9F4C9 /* twitter.png */,
+			);
+			name = "Img Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +167,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10AC9AE31C9A5AE900D9F4C9 /* musicbg.jpg in Resources */,
+				10AC9AEB1C9A5CCA00D9F4C9 /* twitter.png in Resources */,
+				10AC9AE71C9A5B9B00D9F4C9 /* facebook.png in Resources */,
+				10AC9AE51C9A5AF900D9F4C9 /* menu_btn.png in Resources */,
 				101CA3B71C99655D000B218F /* LaunchScreen.storyboard in Resources */,
+				10AC9AE91C9A5CC200D9F4C9 /* googleplus.png in Resources */,
+				10AC9ADF1C9A592E00D9F4C9 /* LoginVC.xib in Resources */,
 				101CA3B41C99655D000B218F /* Assets.xcassets in Resources */,
-				101CA3B21C99655D000B218F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				101CA3AF1C99655D000B218F /* ViewController.m in Sources */,
 				101CA3AC1C99655C000B218F /* AppDelegate.m in Sources */,
+				10AC9ADE1C9A592E00D9F4C9 /* LoginVC.m in Sources */,
 				101CA3A91C99655C000B218F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +194,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		101CA3B01C99655D000B218F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				101CA3B11C99655D000B218F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		101CA3B51C99655D000B218F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,6 +326,7 @@
 				101CA3BD1C99655D000B218F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

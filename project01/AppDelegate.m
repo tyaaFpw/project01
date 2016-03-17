@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginVC.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) UINavigationController *navigation;
+@property (nonatomic, strong) LoginVC *loginPage;
 
 @end
 
@@ -17,7 +21,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self settingUpFirstScreen];
+    
     return YES;
+}
+
+- (void)settingUpFirstScreen {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.loginPage = [[LoginVC alloc] init];
+    self.navigation = [[UINavigationController alloc] initWithRootViewController:self.loginPage];
+    self.navigation.navigationBarHidden = YES;
+    [self.window setRootViewController:self.navigation];
+    
+    [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
