@@ -21,6 +21,14 @@
 		10AC9AEE1C9A7BAC00D9F4C9 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AC9AED1C9A7BAB00D9F4C9 /* FBSDKCoreKit.framework */; };
 		10AC9AF01C9A7BB400D9F4C9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AC9AEF1C9A7BB400D9F4C9 /* FBSDKLoginKit.framework */; };
 		10AC9AF21C9A7BC300D9F4C9 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AC9AF11C9A7BC300D9F4C9 /* FBSDKShareKit.framework */; };
+		10AC9AF51C9BA97A00D9F4C9 /* FBLoginObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AC9AF41C9BA97A00D9F4C9 /* FBLoginObject.m */; };
+		10AC9AF81C9BB2CE00D9F4C9 /* projectModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10AC9AF61C9BB2CE00D9F4C9 /* projectModel.xcdatamodeld */; };
+		10AC9B011C9BB42E00D9F4C9 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AC9AFA1C9BB42E00D9F4C9 /* User+CoreDataProperties.m */; };
+		10AC9B021C9BB42E00D9F4C9 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AC9AFC1C9BB42E00D9F4C9 /* User.m */; };
+		10AC9B031C9BB42E00D9F4C9 /* Music+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AC9AFE1C9BB42E00D9F4C9 /* Music+CoreDataProperties.m */; };
+		10AC9B041C9BB42E00D9F4C9 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AC9B001C9BB42E00D9F4C9 /* Music.m */; };
+		10AC9B0B1C9BB6BD00D9F4C9 /* TwitterLoginObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AC9B0A1C9BB6BD00D9F4C9 /* TwitterLoginObject.m */; };
+		10AC9B0E1C9BC11200D9F4C9 /* TwitterProfileObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AC9B0D1C9BC11200D9F4C9 /* TwitterProfileObject.m */; };
 		16A3A0E4A61975F6D1CB5C0A /* libPods-project01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C230C920737242E8DA3A8941 /* libPods-project01.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +51,21 @@
 		10AC9AED1C9A7BAB00D9F4C9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		10AC9AEF1C9A7BB400D9F4C9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		10AC9AF11C9A7BC300D9F4C9 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		10AC9AF31C9BA97900D9F4C9 /* FBLoginObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginObject.h; path = ../FBLoginObject.h; sourceTree = "<group>"; };
+		10AC9AF41C9BA97A00D9F4C9 /* FBLoginObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginObject.m; path = ../FBLoginObject.m; sourceTree = "<group>"; };
+		10AC9AF71C9BB2CE00D9F4C9 /* projectModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = projectModel.xcdatamodel; sourceTree = "<group>"; };
+		10AC9AF91C9BB42E00D9F4C9 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		10AC9AFA1C9BB42E00D9F4C9 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		10AC9AFB1C9BB42E00D9F4C9 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		10AC9AFC1C9BB42E00D9F4C9 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		10AC9AFD1C9BB42E00D9F4C9 /* Music+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Music+CoreDataProperties.h"; sourceTree = "<group>"; };
+		10AC9AFE1C9BB42E00D9F4C9 /* Music+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Music+CoreDataProperties.m"; sourceTree = "<group>"; };
+		10AC9AFF1C9BB42E00D9F4C9 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		10AC9B001C9BB42E00D9F4C9 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
+		10AC9B091C9BB6BD00D9F4C9 /* TwitterLoginObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterLoginObject.h; sourceTree = "<group>"; };
+		10AC9B0A1C9BB6BD00D9F4C9 /* TwitterLoginObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterLoginObject.m; sourceTree = "<group>"; };
+		10AC9B0C1C9BC11200D9F4C9 /* TwitterProfileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterProfileObject.h; sourceTree = "<group>"; };
+		10AC9B0D1C9BC11200D9F4C9 /* TwitterProfileObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterProfileObject.m; sourceTree = "<group>"; };
 		3B2D25CBB897C9AFD53A77A0 /* Pods-project01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project01.release.xcconfig"; path = "Pods/Target Support Files/Pods-project01/Pods-project01.release.xcconfig"; sourceTree = "<group>"; };
 		A2F5D22D3B362996C1B11375 /* Pods-project01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-project01/Pods-project01.debug.xcconfig"; sourceTree = "<group>"; };
 		C230C920737242E8DA3A8941 /* libPods-project01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-project01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,10 +110,10 @@
 			children = (
 				101CA3AA1C99655C000B218F /* AppDelegate.h */,
 				101CA3AB1C99655C000B218F /* AppDelegate.m */,
-				10AC9ADB1C9A592D00D9F4C9 /* LoginVC.h */,
-				10AC9ADC1C9A592D00D9F4C9 /* LoginVC.m */,
-				10AC9ADD1C9A592D00D9F4C9 /* LoginVC.xib */,
-				101CA3B51C99655D000B218F /* LaunchScreen.storyboard */,
+				10AC9B081C9BB4BA00D9F4C9 /* View Controller */,
+				10AC9B071C9BB4A200D9F4C9 /* Objects */,
+				10AC9B061C9BB48800D9F4C9 /* User Interfaces */,
+				10AC9B051C9BB43600D9F4C9 /* CoreData */,
 			);
 			path = project01;
 			sourceTree = "<group>";
@@ -136,6 +159,53 @@
 				10AC9AED1C9A7BAB00D9F4C9 /* FBSDKCoreKit.framework */,
 			);
 			name = Framework;
+			sourceTree = "<group>";
+		};
+		10AC9B051C9BB43600D9F4C9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				10AC9AF61C9BB2CE00D9F4C9 /* projectModel.xcdatamodeld */,
+				10AC9AFB1C9BB42E00D9F4C9 /* User.h */,
+				10AC9AFC1C9BB42E00D9F4C9 /* User.m */,
+				10AC9AF91C9BB42E00D9F4C9 /* User+CoreDataProperties.h */,
+				10AC9AFA1C9BB42E00D9F4C9 /* User+CoreDataProperties.m */,
+				10AC9AFF1C9BB42E00D9F4C9 /* Music.h */,
+				10AC9B001C9BB42E00D9F4C9 /* Music.m */,
+				10AC9AFD1C9BB42E00D9F4C9 /* Music+CoreDataProperties.h */,
+				10AC9AFE1C9BB42E00D9F4C9 /* Music+CoreDataProperties.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		10AC9B061C9BB48800D9F4C9 /* User Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				10AC9ADD1C9A592D00D9F4C9 /* LoginVC.xib */,
+				101CA3B51C99655D000B218F /* LaunchScreen.storyboard */,
+			);
+			name = "User Interfaces";
+			sourceTree = "<group>";
+		};
+		10AC9B071C9BB4A200D9F4C9 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				10AC9AF31C9BA97900D9F4C9 /* FBLoginObject.h */,
+				10AC9AF41C9BA97A00D9F4C9 /* FBLoginObject.m */,
+				10AC9B091C9BB6BD00D9F4C9 /* TwitterLoginObject.h */,
+				10AC9B0A1C9BB6BD00D9F4C9 /* TwitterLoginObject.m */,
+				10AC9B0C1C9BC11200D9F4C9 /* TwitterProfileObject.h */,
+				10AC9B0D1C9BC11200D9F4C9 /* TwitterProfileObject.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		10AC9B081C9BB4BA00D9F4C9 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10AC9ADB1C9A592D00D9F4C9 /* LoginVC.h */,
+				10AC9ADC1C9A592D00D9F4C9 /* LoginVC.m */,
+			);
+			name = "View Controller";
 			sourceTree = "<group>";
 		};
 		A6DD91B286F66517AF516864 /* Frameworks */ = {
@@ -281,9 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10AC9B041C9BB42E00D9F4C9 /* Music.m in Sources */,
+				10AC9B011C9BB42E00D9F4C9 /* User+CoreDataProperties.m in Sources */,
+				10AC9B031C9BB42E00D9F4C9 /* Music+CoreDataProperties.m in Sources */,
+				10AC9B021C9BB42E00D9F4C9 /* User.m in Sources */,
 				101CA3AC1C99655C000B218F /* AppDelegate.m in Sources */,
+				10AC9AF81C9BB2CE00D9F4C9 /* projectModel.xcdatamodeld in Sources */,
+				10AC9B0B1C9BB6BD00D9F4C9 /* TwitterLoginObject.m in Sources */,
 				10AC9ADE1C9A592E00D9F4C9 /* LoginVC.m in Sources */,
+				10AC9AF51C9BA97A00D9F4C9 /* FBLoginObject.m in Sources */,
 				101CA3A91C99655C000B218F /* main.m in Sources */,
+				10AC9B0E1C9BC11200D9F4C9 /* TwitterProfileObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +513,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10AC9AF61C9BB2CE00D9F4C9 /* projectModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10AC9AF71C9BB2CE00D9F4C9 /* projectModel.xcdatamodel */,
+			);
+			currentVersion = 10AC9AF71C9BB2CE00D9F4C9 /* projectModel.xcdatamodel */;
+			path = projectModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 101CA39C1C99655C000B218F /* Project object */;
 }
