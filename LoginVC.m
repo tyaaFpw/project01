@@ -8,6 +8,7 @@
 
 #import "LoginVC.h"
 #import "FBLoginObject.h"
+#import "TwitterProfileObject.h"
 
 @interface LoginVC ()
 
@@ -16,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnfacebook;
 
 @property (strong, nonatomic) FBLoginObject *loginObject;
+@property (strong, nonatomic) TwitterProfileObject *twitterProfile;
 
 @end
 
@@ -30,6 +32,8 @@
 }
 
 - (IBAction)didTappedBtnTwitter:(id)sender {
+    self.twitterProfile = [[TwitterProfileObject alloc]init];
+    [self.twitterProfile ConnectProfile];
 }
 
 - (IBAction)didTappedBtnFacebook:(id)sender {
